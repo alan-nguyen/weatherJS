@@ -10,7 +10,7 @@ function getWeather() {
   weather
     .getWeather()
     .then(results => {
-      console.log(result);
+      ui.paint(results);
     })
     .catch(err => console.log(err));
 }
