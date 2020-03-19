@@ -7,4 +7,9 @@ class Storage {
   }
 
   getLocationData() {}
+
+  setLocationData(city, state) {
+    localStorage.setItem('city', city);
+    localStorage.setItem('state', state);
+  }
 }
