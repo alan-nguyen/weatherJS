@@ -1,3 +1,6 @@
+// Init storage
+const storage = new Storage();
+
 // Init weather object
 const weather = new Weather('Boston', 'MA');
 
