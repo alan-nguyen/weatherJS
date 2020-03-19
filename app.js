@@ -1,6 +1,9 @@
 // Init storage
 const storage = new Storage();
 
+// Get stored location data
+const weatherLocation = storage.getLocationData();
+
 // Init weather object
 const weather = new Weather('Boston', 'MA');
 
