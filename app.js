@@ -13,6 +13,12 @@ document.getElementById('w-change-btn').addEventListener('click', e => {
   const state = document.getElementById('state').value;
 
   weather.changeLocation('Miami', 'FL');
+
+  // Get and display weather
+  getWeather();
+
+  // Close modal
+  $('#locModal').modal('hide');
 });
 
 function getWeather() {
